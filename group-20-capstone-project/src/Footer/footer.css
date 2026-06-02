@@ -1,3 +1,8 @@
+@keyframes blink {
+    0%, 100% { color: #66b3ff; }
+    50% { color: #4800ff; }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -42,6 +47,21 @@
     gap: 20px;
 }
 
+.footer-left {
+    text-align: left;
+}
+
+.footer a {
+    color: #66b3ff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    animation: blink 0.5s 1;
+}
+
 .footer-left p {
     font-size: 18px;
     line-height: 1.8;
@@ -51,6 +71,7 @@
     font-size: 22px;
     font-weight: 600;
 }
+
 
 /* Mobile */
 @media (max-width: 768px) {

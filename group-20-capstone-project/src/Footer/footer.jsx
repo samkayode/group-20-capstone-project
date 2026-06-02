@@ -14,12 +14,12 @@ function Footer() {
 
         <div className="footer-bottom">
           <div className="footer-left">
-            <p>©2026 Design by Amaka & Ifeoma A.</p>
-            <p>Built by GroupName. All rights reserved</p>
+            <p>©2026 Design by <a href="https://amakandukwu.com/">Amaka</a> & <a href="https://www.linkedin.com/in/ifeomaokocha">Ifeoma A.</a></p>
+            <p>Built by <a href="https://github.com/samkayode/group-20-capstone-project.git">TS Academy Group 20</a>. All rights reserved</p>
           </div>
 
           <div className="footer-right">
-            <p>TSAcademy</p>
+            <a href="https://tsacademyonline.com/">TSAcademy</a>
           </div>
         </div>
 
