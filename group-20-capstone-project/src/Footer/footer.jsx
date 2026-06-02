@@ -7,7 +7,8 @@ function Footer() {
 
         <div className="footer-top">
           <h3>About</h3>
-          <p>first name of group members</p>
+          <a href="https://github.com/Triumph74926/Triumph74926">Ajetomobi Bethel</a>
+          <a href="https://github.com/mhiz-tayo">Fadeelah Omotayo</a>
         </div>
 
         <hr />

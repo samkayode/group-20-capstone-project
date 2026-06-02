@@ -11,7 +11,7 @@
 }
 
 .footer {
-    background: #001a66;
+    background: #051540;
     color: white;
     padding: 70px 80px 40px;
     width : 100%;
@@ -29,9 +29,9 @@
     text-align: left;
 }
 
-.footer-top p {
-    font-size: 20px;
-    margin-bottom: 60px;
+.footer-top a {
+    font-size: 16px;
+    display: block;
     text-align: left;
 }
 
