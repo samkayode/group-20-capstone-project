@@ -11,3 +11,89 @@
   font-weight: lighter;
   line-height: 1.6;
 }
+.planet {
+  background-color: #f2f7ff;
+  text-align: center;
+}
+.planet-container {
+  max-width: 1100px;
+  padding: 50px 20px;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.planet-container h2 {
+  color: hsl(240, 65%, 41%);
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.planet-container p {
+  color: hsl(0, 0%, 60%);
+  font-size: 14px;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+}
+.planet-display {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding-top: 15px;
+}
+
+.card {
+  background: #0c0c2c;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: 0.3s ease;
+  height: 100%;
+  width: 300px;
+  cursor: default;
+}
+.card img {
+  height: 140px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 35px;
+}
+
+.card h4,
+.card p {
+  background: white;
+  color: black;
+  margin: 0;
+  padding: 10px 15px;
+}
+
+.card h4 {
+  background: white;
+  color: black;
+  font-size: 14px;
+  margin: 0;
+  padding: 12px 15px 5px 15px;
+}
+
+.card p {
+  background: white;
+  color: black;
+  margin: 0;
+  font-size: 13px;
+  padding: 5px 15px 12px 15px;
+}
+
+/* mobile view */
+@media (max-width: 768px) {
+  .planet-display {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding-top: 15px;
+  }
+  .card {
+    width: 170px;
+  }
+  .planet-container h2,
+  p {
+    max-width: 350px;
+  }
+}
