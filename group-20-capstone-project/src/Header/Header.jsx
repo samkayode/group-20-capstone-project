@@ -19,8 +19,26 @@ function Header() {
           </div>
 
           <div className="buttons">
-            <button className="explore-btn">Explore the Data</button>
-            <button className="contact-btn">Contact Us</button>
+            <button
+              className="explore-btn"
+              onClick={() => {
+                document
+                  .getElementById("planets")
+                  .scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Explore the Data
+            </button>
+            <button
+              className="contact-btn"
+              onClick={() => {
+                document
+                  .getElementById("form")
+                  .scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Contact Us
+            </button>
           </div>
         </div>
         <div className="image">
