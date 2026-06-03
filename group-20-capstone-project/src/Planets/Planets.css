@@ -1,0 +1,13 @@
+.planet-container {
+  background-color: hsl(216, 29%, 93%);
+  text-align: center;
+}
+.planet-container h2 {
+  color: hsl(240, 65%, 41%);
+}
+.planet-container p {
+  color: hsl(0, 0%, 50%);
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 1.6;
+}
