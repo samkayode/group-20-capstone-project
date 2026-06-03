@@ -7,7 +7,7 @@ body {
   margin-left: 12rem;
 }
 .header {
-  background-color: hsl(240, 88%, 16%);
+  background-color: hsla(224, 84%, 14%, 1);
   height: 630px;
 }
 .header-container {
@@ -42,22 +42,72 @@ body {
 .explore-btn {
   color: white;
   background-color: hsl(240, 63%, 44%);
-  padding: 10px;
+  padding: 13px;
   border-radius: 5px;
   border: none;
   width: 150px;
   cursor: pointer;
 }
+.explore-btn:hover {
+  background-color: hsl(240, 66%, 50%);
+}
 .contact-btn {
   color: white;
   background-color: transparent;
-  padding: 10px;
+  padding: 13px;
   width: 150px;
   border: 0.5px solid hsl(0, 0%, 60%);
   border-radius: 5px;
   cursor: pointer;
 }
+.contact-btn:hover {
+  font-size: 14px;
+}
 .planet-img {
   height: auto;
   width: 650px;
+}
+
+/* mobile view */
+@media (max-width: 768px) {
+  .logo {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .header-container {
+    flex-direction: column-reverse;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+  }
+  .planet-img {
+    height: 300px;
+    width: 300px;
+  }
+  .text {
+    color: white;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .text-edit h1 {
+    font-size: 18px;
+    max-width: 300px;
+    line-height: 1.6;
+  }
+  .text-edit p {
+    font-size: 14px;
+    color: hsl(0, 0%, 80%);
+    max-width: 300px;
+  }
+  .buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 13px;
+  }
 }
