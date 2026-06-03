@@ -1,0 +1,86 @@
+/* Base Layout & Color Foundations */
+.footer {
+  background-color: #000f35; 
+  color: #ffffff;
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-content {
+  width: 100%;
+  max-width: 1140px; 
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography & Links */
+.footer h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+}
+
+.team-description {
+  font-size: 0.95rem;
+  color: #e0e6ed;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2); 
+  margin: 40px 0 24px 0;
+  width: 100%;
+}
+
+/* Link Styling */
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.footer a:hover {
+  opacity: 0.8; 
+}
+
+/* DESKTOP VIEW: Split horizontally */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; /
+}
+
+.footer-left p {
+  font-size: 0.85rem;
+  margin: 4px 0;
+  color: #ffffff;
+}
+
+.footer-right .ts-link {
+  font-size: 0.85rem;
+}
+
+/* MOBILE VIEW: Stack everything vertically to match image 2 */
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 24px; /* Slightly tighter padding on mobile screens */
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start; /* Forces left alignment */
+    gap: 20px; /* Generates the vertical spacing seen in the mobile mockup */
+  }
+
+  .footer-right {
+    margin-top: 8px;
+  }
+}
