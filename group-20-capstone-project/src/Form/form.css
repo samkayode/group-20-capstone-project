@@ -100,16 +100,36 @@
   text-align: left;
 }
 
-
-/* 
-@media(max-width:768px){
-
-    .contact-form{
-        grid-template-columns:1fr;
+ 
+@media screen and (max-width: 768px) {
+    .contact-section {
+        padding: 50px 15px;
     }
 
-    .contact-container h2{
-        font-size:28px;
+    .contact-container h2 {
+        font-size: 28px;
+        text-align: center;
     }
 
-} */
+    .contact-text {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .contact-form {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .submit-btn {
+        width: 100%;
+        padding: 15px;
+    }
+}
