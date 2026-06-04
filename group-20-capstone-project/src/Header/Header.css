@@ -4,7 +4,7 @@ body {
 }
 .logo {
   margin: 0;
-  margin-left: 12rem;
+  margin-left: 13rem;
 }
 .header {
   background-color: hsla(224, 84%, 14%, 1);
@@ -89,15 +89,15 @@ body {
   }
   .text {
     color: white;
-    line-height: 1.2;
-    letter-spacing: 3px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
     margin: 0 auto;
     text-align: center;
   }
 
   .text-edit h1 {
     font-size: 18px;
-    max-width: 300px;
+    max-width: 320px;
     line-height: 1.6;
   }
   .text-edit p {
@@ -108,6 +108,6 @@ body {
   .buttons {
     margin-top: 20px;
     display: flex;
-    gap: 13px;
+    gap: 10px;
   }
 }
