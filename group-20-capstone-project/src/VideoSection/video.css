@@ -11,27 +11,36 @@
     width: 100%;
     max-width: 700px;
     height: auto;
-   
+   flex: 1;
 
 }
 
-.text {
+.words {
     padding: 70px;
     text-align: center;
-
+    flex: 1;
+    max-width: fit-content;
 }
 
-.text h1 {
+.words h2 {
     color: rgb(39, 97, 203);
+    width: 100%;
+    font-size: 2.5rem;
 }
 
-.text p {
+.words span{
+    display: block;
+    margin-bottom: 20px;
+    word-spacing: 0.1em;
+}
+
+.words p {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     word-spacing: 0.1em;
 }
 
-.text p strong {
+.words p strong {
     color: rgb(39, 97, 203);
     font-weight: 600;
 }
@@ -49,11 +58,15 @@
         max-width: 100%;
     }
 
-    .text h1 {
+
+    .words {
+        max-width: fit-content;
+    }
+    .words h2 {
         font-size: 1.8rem;
     }
 
-    .text p {
+    .words p {
         font-size: 1rem;
     }
 }
