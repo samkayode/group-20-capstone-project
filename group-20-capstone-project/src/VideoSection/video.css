@@ -18,6 +18,7 @@
 .text {
     padding: 70px;
     text-align: center;
+
 }
 
 .text h1 {
@@ -26,13 +27,20 @@
 
 .text p {
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    word-spacing: 0.1em;
+}
+
+.text p strong {
+    color: rgb(39, 97, 203);
+    font-weight: 600;
 }
 
 /* For Mobile */
 
 @media (max-width: 768px) {
     .VideoSection {
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
         padding: 20px;
     }
