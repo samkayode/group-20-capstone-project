@@ -1,0 +1,59 @@
+.VideoSection {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.video video {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+   
+
+}
+
+.text {
+    padding: 70px;
+    text-align: center;
+
+}
+
+.text h1 {
+    color: rgb(39, 97, 203);
+}
+
+.text p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    word-spacing: 0.1em;
+}
+
+.text p strong {
+    color: rgb(39, 97, 203);
+    font-weight: 600;
+}
+
+/* For Mobile */
+
+@media (max-width: 768px) {
+    .VideoSection {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .video video {
+        max-width: 100%;
+    }
+
+    .text h1 {
+        font-size: 1.8rem;
+    }
+
+    .text p {
+        font-size: 1rem;
+    }
+}
