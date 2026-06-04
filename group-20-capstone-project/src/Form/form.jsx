@@ -30,23 +30,22 @@ function Form() {
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-    fetch("https://whitebricks.com/tsacademy.php", {
+      fetch("https://whitebricks.com/tsacademy.php", {
         method: "POST",
         body: new FormData(e.target),
-    });
+      });
 
-    alert("Form submitted successfully!");
+      alert("Form submitted successfully!");
     }
 
     if (!/^[0-9]+$/.test(form.phone.value.trim())) {
-    newErrors.phone = true;
+      newErrors.phone = true;
     }
   };
 
   return (
-    <section className="contact-section">
+    <section id="form" className="contact-section">
       <div className="contact-container">
-
         <h2>Have Questions About Planetary Science?</h2>
 
         <p className="contact-text">
@@ -55,7 +54,6 @@ function Form() {
         </p>
 
         <form className="contact-form" onSubmit={handleSubmit}>
-
           <div className="form-group">
             <label>
               Full Name
@@ -68,9 +66,9 @@ function Form() {
               placeholder="Full name"
               className={errors.fullName ? "error-input" : ""}
             />
-                {errors.fullName && (
-                    <small className="error-text">Full Name is required</small>
-                )}
+            {errors.fullName && (
+              <small className="error-text">Full Name is required</small>
+            )}
           </div>
 
           <div className="form-group">
@@ -86,7 +84,7 @@ function Form() {
               className={errors.email ? "error-input" : ""}
             />
             {errors.email && (
-                <small className="error-text">Email is required</small>
+              <small className="error-text">Email is required</small>
             )}
           </div>
 
@@ -103,11 +101,10 @@ function Form() {
               className={errors.phone ? "error-input" : ""}
               onChange={(e) => {
                 e.target.value = e.target.value.replace(/[^0-9]/g, "");
-                }
-            }
+              }}
             />
             {errors.phone && (
-                <small className="error-text">Phone Number is required</small>
+              <small className="error-text">Phone Number is required</small>
             )}
           </div>
 
@@ -123,7 +120,7 @@ function Form() {
               className={errors.message ? "error-input" : ""}
             ></textarea>
             {errors.message && (
-                <small className="error-text">Message is required</small>
+              <small className="error-text">Message is required</small>
             )}
 
             <small>100 characters</small>
@@ -132,9 +129,7 @@ function Form() {
           <button type="submit" className="submit-btn">
             Submit →
           </button>
-
         </form>
-
       </div>
     </section>
   );

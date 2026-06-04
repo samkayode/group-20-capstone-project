@@ -13,6 +13,7 @@ function Footer() {
           <a href="https://github.com/JohnChimeremeze">John Chimeremeze</a>
           <a href="https://github.com/freddot-com">Odiagbe Fred</a>
           <a href="https://github.com/tatamiyih-ops">Hamza</a>
+          <a href="https://github.com/Orlanddimoji">Dimoji Chizaramekpere</a>
         </div>
 
         <hr />
