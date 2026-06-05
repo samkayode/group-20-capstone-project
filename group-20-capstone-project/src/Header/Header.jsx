@@ -1,6 +1,6 @@
 import "./Header.css";
 import logo from "../assets/graphics.png";
-import header from "../assets/image.png";
+import header from "../assets/Image.png";
 function Header() {
   return (
     <div className="header">
