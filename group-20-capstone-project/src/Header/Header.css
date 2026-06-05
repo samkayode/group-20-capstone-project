@@ -41,7 +41,7 @@ body {
 }
 .explore-btn {
   color: white;
-  background-color: hsl(240, 63%, 44%);
+  background-color: rgb(11, 37, 107);
   padding: 13px;
   border-radius: 5px;
   border: none;
