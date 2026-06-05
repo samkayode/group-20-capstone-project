@@ -1,16 +1,54 @@
-# React + Vite
+# Group 20 Capstone Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Summary
 
-Currently, two official plugins are available:
+This is a React-based solar system visualization project built as a capstone assignment. It demonstrates component-based architecture, reusable UI components, dynamic data rendering, and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project was developed collaboratively using Git and GitHub to simulate real-world team workflow.
 
-## React Compiler
+## Group Members
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Samuel Kayode – https://github.com/samkayode
+- Ajetomobi Bethel – https://github.com/Triumph74926
+- Elisha Rasaki – https://github.com/Eliseolish
+- Fadeelah Omotayo Bashir – https://github.com/mhiz-tayo
+- Samuel Olayanju – https://github.com/Dthothhappi
+- Hamza Tatamiyih – https://github.com/tatamiyih-ops
+- John Chimeremeze – https://github.com/JohnChimeremeze
+- Fred Oseremen Odiagbe – https://github.com/freddot-com
 
-## Expanding the ESLint configuration
+## Contributions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Team Lead, Project Setup & Integration – Samuel Kayode
+- Header Section – Samuel Kayode
+- Planets Section – Samuel Kayode
+- Table Section – Fadeelah Omotayo Bashir, Fred Oseremen Odiagbe
+- Video Section – Hamza Tatamiyih
+- Form & Footer Section – Ajetomobi Bethel
+- Testing & Debugging – Samuel Kayode, Ajetomobi Bethel
+
+---
+
+## Technologies Used
+
+- React
+- JavaScript (ES6+)
+- CSS
+- Vite
+- Git & GitHub
+- Vercel (Deployment)
+
+---
+
+## How to Run the Project Locally
+
+```bash
+git clone https://github.com/samkayode/group-20-capstone-project.git
+cd group-20-capstone-project
+npm install
+npm run dev
+```
+
+## Live deployment
+
+https://group-20-capstone-project.vercel.app/
