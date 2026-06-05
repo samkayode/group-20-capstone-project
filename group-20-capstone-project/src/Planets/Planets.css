@@ -42,7 +42,7 @@
 
 .card {
   background: #0c0c2c;
-  border-radius: 15px;
+  border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
   transition: 0.3s ease;
@@ -56,27 +56,22 @@
   object-fit: contain;
   margin-bottom: 35px;
 }
-
-.card h4,
-.card p {
-  background: white;
-  color: black;
-  margin: 0;
-  padding: 10px 15px;
+.card-content {
+  background-color: white;
 }
-
 .card h4 {
-  background: white;
   color: black;
   font-size: 14px;
   margin: 0;
-  padding: 12px 15px 5px 15px;
+  padding: 12px 15px 5px;
 }
+
 .card p {
-  color: black;
+  color: hsl(0, 0%, 30%);
   margin: 0;
+  border: none;
   font-size: 13px;
-  padding: 5px 15px 12px 15px;
+  padding: 5px 15px 12px;
 }
 
 /* mobile view */
@@ -88,14 +83,7 @@
     padding-top: 15px;
   }
   .card {
-    width: 170px;
-  }
-  .card h4,
-  .card p {
-    background: white;
-    color: black;
-    margin: 0;
-    padding: 10px 15px;
+    width: 160px;
   }
   .planet-container h2,
   p {

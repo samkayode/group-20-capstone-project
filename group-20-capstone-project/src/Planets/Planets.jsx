@@ -24,12 +24,13 @@ function Planets() {
 
         <div className="planet-display">
           {planets.map((planet) => (
-            <div className="card">
+            <div key={planet.planet} className="card">
               <img src={planet.image} alt={planet.planet} />
 
-              <h4>{planet.planet}</h4>
-
-              <p>{planet.distanceFromSun} million km from Sun</p>
+              <div className="card-content">
+                <h4>{planet.planet}</h4>
+                <p>{planet.distanceFromSun} million km from Sun</p>
+              </div>
             </div>
           ))}
         </div>
