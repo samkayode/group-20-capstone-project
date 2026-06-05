@@ -24,7 +24,8 @@ The project was developed collaboratively using Git and GitHub to simulate real-
 - Planets Section – Samuel Kayode
 - Table Section – Fadeelah Omotayo Bashir, Fred Oseremen Odiagbe
 - Video Section – Hamza Tatamiyih
-- Form & Footer Section – Ajetomobi Bethel
+- Footer Section – Ajetomobi Bethel
+- Form - Ajetomobi Bethel
 - Testing & Debugging – Samuel Kayode, Ajetomobi Bethel
 
 ---
